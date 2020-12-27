@@ -25,62 +25,49 @@ b.Flex Item
 3.  flex grow - value can be any numeric number
 */
 
-body {
+.arabic {
+    font-family: 'Harmattan', sans-serif;
+    font-size: 1em;
+}
+
+.english {
     font-family: 'Quicksand', sans-serif;
 }
 
-#logo {
+h1 {
+    color: #ffbd59;
+    font-size: 1.5em;
+}
+
+img {
     width: 25vw;
     height: 40vh;
 }
 
-.container {
-    height: 40vh;
+#container {
+    text-align: center;
     display: grid;
     justify-content: center;
+    align-content: center;
+}
+
+div>div:last-child {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+a {
+    color: #ffbd59;
+    text-decoration: none;
+}
+
+#last-next,
+#first-previous {
+    color: black;
 }
 
 #play-button {
-    color: black;
-    border: transparent;
-    background-color: transparent;
-    font-size: 3em;
-    text-decoration: none;
-    text-align: center;
-}
-
-#how-to-play-button {
-    color: #ffbd59;
-    border: transparent;
-    background-color: transparent;
-    font-size: 1em;
-    text-decoration: none;
-    grid-area: 2/1;
-    text-align: center;
-}
-
-h1,
-input {
-    color: #ffbd59;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-top-color: transparent;
-    border-bottom-color: #ffbd59;
-}
-
-button {
-    border-color: transparent;
-    background-color: transparent;
-}
-
-#players-play-button,
-#players-home-button {
-    color: #ffbd59;
-    border: transparent;
-    background-color: transparent;
-    font-size: 1em;
-    text-decoration: none;
-    margin: 10% 10% 10% 10%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
