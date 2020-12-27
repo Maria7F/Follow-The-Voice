@@ -9,3 +9,51 @@ font-family: 'Quicksand', sans-serif; */
 /* font-family: 'Harmattan', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Quicksand', sans-serif; */
+
+
+/*
+A.Flex Container
+1.  Flex directiom - values(row, row-reverse, column, column-reverse)
+2.  justify content - values(flex-start, flex-end, center,space-between, space-around, space evenly)
+3.  align items - values(flex-start, flex-end, center, stretch, baseline)
+4.  align content - values(flex-start, flex-end, center, stretch, space-between, space-around, space evenly)
+5.  flex wrap - (wrap, nowrap)
+
+b.Flex Item
+1.  align self - flex-start, flex-end, center
+2.  order - value can be any numeric number
+3.  flex grow - value can be any numeric number
+*/
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#logo {
+    width: 25vw;
+}
+
+#container {
+    height: 40vh;
+    display: grid;
+    justify-content: center;
+}
+
+#play-button {
+    color: #ffbd59;
+    border: transparent;
+    background-color: transparent;
+    font-size: 3em;
+    text-decoration: none;
+    text-align: center;
+}
+
+#how-to-play-button {
+    color: #ffbd59;
+    border: transparent;
+    background-color: transparent;
+    font-size: 1em;
+    text-decoration: none;
+    grid-area: 2/1;
+    text-align: center;
+}
