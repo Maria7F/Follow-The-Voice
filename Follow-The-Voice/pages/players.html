@@ -13,12 +13,19 @@
         <h1>Player Names
             <hr>
         </h1>
-        <p id="players">Player 1: <input id="player-name"></p>
-        <button>+</button>
-
         <div>
-            <a id="players-home-button" href="/index.html">HOME</a>
+            <form method="POST" id="player-name-form">
+                <p id="players">
+                    Player name:
+                    <input id="player-name">
+                </p>
+            </form>
+            <button id="add">+</button>
+            <button id="delete">-</button>
+        </div>
+        <div>
             <a id="players-play-button" href="/pages/start-game-page.html">PLAY!</a>
+            <a id="players-home-button" href="/index.html">HOME</a>
         </div>
     </div>
 
