@@ -62,6 +62,14 @@ a {
     text-decoration: none;
 }
 
+#pause-button {
+    color: red;
+}
+
+#resume-button {
+    color: green;
+}
+
 #last-next,
 #first-previous {
     color: black;
