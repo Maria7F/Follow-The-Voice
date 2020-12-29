@@ -62,7 +62,7 @@ First i have finishe the layout using the wireframe, after that i started coding
 ---
 
 ### Favorite function
-
+```javascript
 var input_player_name = $("player-name");
     $("#add").click(function(e) {
         e.preventDefault();
@@ -71,5 +71,4 @@ var input_player_name = $("player-name");
     $("#delete").on("click", function() {
         $("#players").remove();
     });
-
-    
+```
