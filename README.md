@@ -78,5 +78,4 @@ var input_player_name = $("player-name");
 ---
 
 ### Game link
-
-[my game url]: <https://pages.git.generalassemb.ly/mariafelemban/project-1-game/>
+[link to my game!](https://pages.git.generalassemb.ly/mariafelemban/project-1-game/)
