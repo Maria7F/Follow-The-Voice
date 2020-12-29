@@ -14,16 +14,21 @@ $(document).ready(function() {
     //============================================
     // for the start-game-page ======================
 
-    var name = $("#player-name").val();
-    var names = new Array(name);
-    console.log(name);
+
+    $("#add").on("click", function() {
+        var name = $("#player-name").val();
+        var names = new Array(name);
+        console.log(names);
+    });
+
 
     $("#test").on("click", function() {
         var playlist = ['/audio/1.mp3', '/audio/2.mp3', '/audio/3.mp3', '/audio/4.mp3'];
         var words = ['جمل ماشي', 'عالمماشي', 'جيت اضمه', 'خطف شاشي'];
+        var interval;
         //reference --> https://stackoverflow.com/questions/36315320/jquery-animate-changing-text-infinite-loop
         var index = 0;
-        setInterval(function() {
+        interval = setInterval(function() {
             $("#game-words").animate({
                 opacity: 0
             }, function() {
@@ -38,8 +43,11 @@ $(document).ready(function() {
                     index = 0;
             });
         }, 2000);
-
     });
+    $('#pause').click(function() {
+        alert("did someone lost?")
+    });
+
 });
 
 // var x = Math.floor(Math.random() * 4);
