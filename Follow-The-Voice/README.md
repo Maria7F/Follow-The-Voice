@@ -2,7 +2,6 @@
 
 <br>
 
----
 
 ### Description
 
@@ -26,10 +25,10 @@ its a game that contains a group of people sitting next to each other and in fro
 ---
 
 ### Wireframes
-![Image of index](/images/wireframe-index.png)
-![Image of hoe to play](/images/wireframe-howToPlay.png)
-![Image of players](/images/wireframe-players.png)
-![Image of game](/images/wireframe-game.png)
+![Image of index](images/wireframe-index.png)
+![Image of hoe to play](images/wireframe-howToPlay.png)
+![Image of players](mages/wireframe-players.png)
+![Image of game](images/wireframe-game.png)
 
 <br>
 
