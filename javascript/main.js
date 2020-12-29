@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 
     $("#test").on("click", function() {
-        var playlist = ['/Follow-The-Voice/audio/1.mp3', '/Follow-The-Voice/audio/2.mp3', '/Follow-The-Voice/audio/3.mp3', '/Follow-The-Voice/audio/4.mp3'];
+        var playlist = ['/project-1-game/audio/1.mp3', '/project-1-game/audio/2.mp3', '/project-1-game/audio/3.mp3', '/project-1-game/audio/4.mp3'];
         var words = ['جمل ماشي', 'عالمماشي', 'جيت اضمه', 'خطف شاشي'];
         //reference --> https://stackoverflow.com/questions/36315320/jquery-animate-changing-text-infinite-loop
         var index = 0;
