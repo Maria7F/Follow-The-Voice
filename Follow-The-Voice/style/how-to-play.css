@@ -25,6 +25,17 @@ b.Flex Item
 3.  flex grow - value can be any numeric number
 */
 
+#game-words {
+    font-size: 4em;
+}
+
+#container {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
 .arabic {
     font-family: 'Harmattan', sans-serif;
     font-size: 1em;
@@ -42,13 +53,6 @@ h1 {
 img {
     width: 25vw;
     height: 40vh;
-}
-
-#container {
-    text-align: center;
-    display: grid;
-    justify-content: center;
-    align-content: center;
 }
 
 div>div:last-child {

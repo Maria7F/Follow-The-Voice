@@ -29,15 +29,15 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-#logo {
-    width: 25vw;
-    height: 40vh;
-}
-
 .container {
     height: 40vh;
     display: grid;
     justify-content: center;
+}
+
+#logo {
+    width: 25vw;
+    height: 40vh;
 }
 
 #play-button {
