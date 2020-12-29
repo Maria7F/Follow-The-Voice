@@ -27,7 +27,7 @@ its a game that contains a group of people sitting next to each other and in fro
 ### Wireframes
 ![Image of index](images/wireframe-index.png)
 <br>
-![Image of how to play](images/wireframe-howToPlay.png)
+![Image of how to play](images/wireframe- howToPlay.png)
 <br>
 ![Image of game](images/wireframe-game.png)
 <br>
