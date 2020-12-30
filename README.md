@@ -25,13 +25,13 @@ its a game that contains a group of people sitting next to each other and in fro
 ---
 
 ### Wireframes
-![](../images/wireframe-index.png){:height="50%" width="50%"}
+<img src="../images/wireframe-index.png" width="150" height="100" />
 <br>
-![](../images/wireframe-howToPlay.png){:height="50%" width="50%"}
+<img src="../images/wireframe-howToPlay.png" width="150" height="100" />
 <br>
-![](../images/wireframe-game.png){:height="50%" width="50%"}
+<img src="../images/wireframe-game.png" width="150" height="100" />
 <br>
-![](../images/wireframe-players.png){:height="50%" width="50%"}
+<img src="../images/wireframe-players.png" width="150" height="100" />
 <br>
 
 ---
