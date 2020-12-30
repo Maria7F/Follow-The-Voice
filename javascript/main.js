@@ -33,13 +33,14 @@ $(document).ready(function() {
             }, function() {
                 if (words.length > index) {
                     var x = Math.floor(Math.random() * 4);
-                    $(this).text(words[index]).animate({ opacity: 1 })
+                    var y = Math.floor(Math.random() * 4);
+                    $(this).text(words[y]).animate({ opacity: 1 })
                     $("#audio").attr("src", playlist[x]);
                     var audio = new Audio(playlist[x]).play();
                     x++;
-                    index++;
+                    y++;
                 } else
-                    index = 0;
+                    y = 0;
             });
         }, 2000);
     });
