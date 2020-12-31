@@ -32,8 +32,8 @@ $(document).ready(function() {
                 opacity: 0
             }, function() {
                 if (words.length > index) {
-                    var x = Math.floor(Math.random() * 4);
-                    var y = Math.floor(Math.random() * 4);
+                    var x, y = Math.floor(Math.random() * 4);
+
                     $(this).text(words[y]).animate({ opacity: 1 })
                     $("#audio").attr("src", playlist[x]);
                     var audio = new Audio(playlist[x]).play();
